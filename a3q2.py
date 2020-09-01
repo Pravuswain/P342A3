@@ -3,12 +3,12 @@
 with open('mat1q2.txt','r') as f:
 	a =[[float(num) for num in line.split(',')] for line in f]
 		
-print(a)
+#print(a)
 
 with open('mat2q2.txt','r') as f:
 	b=[float(num) for num  in f]
 		
-print(b)
+#print(b)
 n= len(b)
 #print(n)
 
